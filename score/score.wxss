@@ -1,0 +1,63 @@
+
+.vc {
+  display: flex;
+}
+
+.vc .normal {
+  height: 80rpx;
+  width: 90rpx;
+  border: 1rpx solid red;
+  background-color: #ffffff;
+  z-index: 5;
+}
+
+.tx {
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.vc .selected {
+  height: 80rpx;
+  width: 90rpx;
+  border: 1rpx solid #4be3ee;
+  background-color: #ffffff;
+  z-index: 5;
+}
+
+/* .is0 {
+  height: 100rpx;
+  width: 100rpx;
+  border: 1rpx solid yellow;
+  background-color: red;
+}
+
+.is1 {
+  height: 100rpx;
+  width: 100rpx;
+  border: 1rpx solid red;
+  background-color: yellow;
+} */
+
+.s1 {
+  position: absolute;
+  display: flex
+}
+
+.s2 {
+  height: 80rpx;
+  width: 90rpx;
+  border: 1rpx solid yellow;
+  background-color: red;
+  opacity: 0.3;
+  z-index: 10
+  
+}
+
+.s3 {
+  height: 80rpx;
+  width: 90rpx;
+  border: 1rpx solid red;
+  background-color: yellow;
+  z-index: -5
+}
+

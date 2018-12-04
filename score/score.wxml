@@ -1,0 +1,18 @@
+
+
+  <view class="vc">
+     <!-- 底层 -->
+     <view class="{{isSelected?'selected':'normal'}}"  wx:for="{{items}}" wx:key="index" bind:tap="click01"
+      data-index="{{index}}" >
+      <view class="tx">{{index+1}}</view>
+     </view>
+     <view class="s1">
+      <!-- 外层 -->
+      <view class="{{isSelected?'s2':'s3'}}" wx:for="{{items1}}"   wx:key="index"   bind:tap="click01" data-index="{{index}}"></view>
+     </view>
+     
+  </view>
+  
+  
+ 
+

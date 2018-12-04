@@ -1,0 +1,47 @@
+
+.title {
+  text-align: center;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx
+}
+
+.tip {
+  font-size: 25rpx;
+  font-weight: 300;
+  float: right;
+  margin: 10rpx
+}
+
+.ball {
+  width: 95%;
+  height: 50rpx;
+  margin-top: 50rpx;
+  margin-bottom: 80rpx;
+}
+
+.sl {
+  width: 95%;
+  height: 50rpx;
+  margin-top: -230rpx;
+  margin-bottom: 50rpx;
+  z-index: 100
+}
+
+form text {
+  font-weight: 300;
+  font-size: 0.8rem
+}
+
+/* 可以用来设置背景图片 */
+/* image {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1
+} */
+
+button {
+  background-color: #00ff00
+}
+/* #00ff00 */

@@ -1,0 +1,22 @@
+
+<view class="title">
+  <text>成长风险快速诊断表(A卷)</text>
+</view>
+<view class="tip">
+  <text>完全不符合 → 完全符合</text>
+</view>
+<scroll-view scroll-y style="height: 100vh;">
+  <form bindsubmit="formSubmit">
+  <ul>
+    <li wx:for="{{items}}" wx:key="index" >
+      <text>{{item.id}}、{{item.content}}</text>
+      <view class="ball">
+        <!-- score组件 -->
+        <demo bind:myevent="onGetCode" windex="{{item.id}}" xnumber="{{xnumber}}"/>
+      </view>     
+    </li>
+  </ul>
+  <button formType='submit'>提交</button>
+</form>
+</scroll-view>
+<!-- <image src="./images/m_bg.jpg"></image> -->
